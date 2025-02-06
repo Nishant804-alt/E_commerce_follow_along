@@ -1,17 +1,9 @@
-Follow Along E-Commerce Website
-Key Features
-1. REST API
-Implements RESTful principles for efficient client-server communication.
-Endpoints for managing products, users, and orders.
-2. MERN Stack
-Built with MongoDB, Express.js, React, and Node.js.
-Ensures scalability, performance, and a seamless full-stack experience.
-3. Order Handling
-Streamlined order processing from cart to checkout.
-Real-time updates for order status and inventory management.
-4. Product Listing & Management
-Features for adding, editing, and removing products.
-Search and filter functionality for an optimized user experience.
-5. User Authentication
-Secure authentication with JWT.
-Role-based access control for users and admins.
+
+Milestones 1
+
+Project Overview Introduction to the MERN stack. Live demo of the final e-commerce application. Set up a GitHub repository with a README summarizing Milestone 1.
+Development Environment Setup Install tools: Node.js, npm, MongoDB, and VS Code. Initialize the project with npm init and install dependencies (e.g., express, mongoose, dotenv).
+Backend Development Create REST APIs for: User Authentication (Register/Login). Product Management (Add, update, delete, and retrieve products). Order Handling (Manage orders and transactions). Design MongoDB schemas for users, products, and orders. Implement middleware for validation and error handling.
+Frontend Development Set up the React project with create-react-app or Vite. Build key UI components: User Pages (Login, Registration, Profile). Product Pages (Listing, Search, Details). Order Pages (Cart, Checkout, Order History). Use React Router for navigation and manage state with Redux or Context API.
+Integration, Testing, and Deployment Integrate the frontend and backend using API calls. Test functionality and resolve bugs with tools like Postman.
+Deploy: Backend using Heroku, Render, or AWS. Frontend using Netlify or Vercel. Ensure the application is secure and production-ready. Final Deliverable A complete MERN-based e-commerce application featuring: Secure authentication. Product and order management. A responsive and user-friendly interface. Fully tested and deployed online.
