@@ -1,7 +1,3 @@
-Here’s the updated README with your Milestone 2 progress added at the end:  
-
----
-
 # Follow Along E-Commerce Website  
 
 ## Key Features  
@@ -25,24 +21,5 @@ Here’s the updated README with your Milestone 2 progress added at the end:
 ### 5. **User Authentication**  
    - Secure authentication with JWT.  
    - Role-based access control for users and admins.  
-
----  
-
-## Milestone 2 Progress 🚀  
-
-### ✅ **Project Setup**  
-- Structured the project with separate `frontend` and `backend` directories.  
-- Initialized a React app for the frontend and a Node.js server for the backend.  
-
-### ✅ **Tooling & Configuration**  
-- Configured Tailwind CSS for modern and responsive styling.  
-- Added useful extensions to improve development efficiency.  
-
-### ✅ **Login Page Implementation**  
-- Designed and developed a fully functional **Login Page**.  
-- Ensured proper UI styling using Tailwind CSS.  
-- Set up basic authentication logic to handle user login.  
-
-This milestone laid the groundwork for the E-Commerce application by setting up the project structure and implementing the first user-facing feature.  
 
 ---  
