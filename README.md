@@ -46,3 +46,12 @@ Here’s the updated README with your Milestone 2 progress added at the end:
 This milestone laid the groundwork for the E-Commerce application by setting up the project structure and implementing the first user-facing feature.  
 
 ---  
+## Milestone 4: User Model, Controller, and File Uploads
+
+### Features Implemented:
+- Created a **User Model** for storing user data.
+- Developed a **User Controller** to handle user-related API requests.
+- Implemented **Multer** for profile picture uploads.
+- Added API endpoints for:
+  - Creating a new user (`POST /api/users`)
+  - Fetching all users (`GET /api/users`)
