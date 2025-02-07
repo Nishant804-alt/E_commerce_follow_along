@@ -1,33 +1,29 @@
-const app = require("./app"); // Import the app instance from app.js
-const connectDatabase = require("./db/database");
-const mongoose = require("mongoose");
-const dotenv = require("dotenv");
-
-// Handle uncaught exceptions (e.g., console.log(undefinedVariable))
-process.on("uncaughtException", (err) => {
-  console.log(`Error: ${err.message}`);
-  console.log("Shutting down the server due to an uncaught exception");
-  process.exit(1);
+const app = require("./app");
+const connectDatabase = require("./db/Database");
+//handling uncaught exception
+process.on(" uncaughtException", (err) => {
+  console.log(`Error:${err.message}`);
+  console.log(`shutting down the server for handling uncaught exception`);
 });
-
-// Load environment variables
-dotenv.config({ path: "./config/.env" });
-
-// Connect to the database
-connectDatabase();
-
-// Start the server
-const PORT = process.env.PORT || 5000;
-const server = app.listen(PORT, () => {
-  console.log(`🚀 Server is running on http://localhost:${PORT}`);
-});
-
-// Handle unhandled promise rejections (e.g., failed database connection)
-process.on("unhandledRejection", (err) => {
-  console.log(`Error: ${err.message}`);
-  console.log("Shutting down the server due to an unhandled promise rejection");
-
-  server.close(() => {
-    process.exit(1);
+//config
+if (process.env.NODE_ENV != "PRODUCTION") {
+  require("dotenv").config({
+    path: "backend/config/.env",
   });
+}
+//connect db
+connectDatabase()
+//create server
+const server = app.listen(process.env.PORT, () => {
+  console.log(
+    `Server is running on http://localhost:${process.env.PORT}`
+  );
 });
+process.on("unhandledRejection", (err) => {
+    console.log(`Shutting down the server for ${err.message}`);
+    console.log(`shutting down the server for unhandled promise rejection`);
+  
+    server.close(() => {
+      process.exit(1);
+    });
+  });
