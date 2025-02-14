@@ -134,3 +134,5 @@ Implemented error handling for duplicate entries and other potential issues.
 ✅ README Update
 Documented Milestone 6 progress in this README file.
 This milestone focused on securely handling user registration on the backend, including the crucial step of password encryption. This is essential for protecting user data and maintaining security best practices.
+
+Milestone 8: Product Card Component and Homepage Layout 🚀 ✅ Frontend Product Card Component Designed and implemented a reusable Product Card component. Utilized props to dynamically render product details like name, image, and price. ✅ Homepage Layout for Products Created a responsive homepage to display multiple Product Cards. Used Grid/Flexbox for optimal layout and user experience.
