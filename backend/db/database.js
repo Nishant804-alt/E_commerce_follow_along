@@ -9,4 +9,4 @@ const connectDatabase = () => {
       console.log(`mongod connected with server: ${data.connection.host}`);
     });
 };
-module.exports = connectDatabase;  //module.exports will be accessible to other files that require() that module.
+module.exports = connectDatabase;
