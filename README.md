@@ -15,6 +15,8 @@ Search and filter functionality for an optimized user experience.
 5. User Authentication
 Secure authentication with JWT.
 Role-based access control for users and admins.
+
+
 📊 Milestone Progress
 Milestone 2: Project Setup 🚀
 ✅ Project Setup
@@ -30,6 +32,9 @@ Added useful extensions to improve development efficiency.
 Designed and developed a fully functional Login Page.
 Ensured proper UI styling using Tailwind CSS.
 Set up basic authentication logic to handle user login.
+
+
+
 Milestone 3: Backend Setup 🚀
 ✅ Backend Folder Structure
 
@@ -43,6 +48,8 @@ Integrated MongoDB to store and manage data.
 ✅ Error Handling
 
 Implemented a global error handler for better debugging.
+
+
 Milestone 4: Creating User Model and Controller 🚀
 ✅ User Model Implementation
 
@@ -54,31 +61,44 @@ Developed controller functions for user management.
 ✅ Multer File Upload Integration
 
 Configured Multer to handle file uploads (e.g., profile pictures).
+
+
 Milestone 5: Creating the Signup Page 🚀
 ✅ Sign-Up Page UI Development
 
 Designed the Sign-Up page using Tailwind CSS.
 Implemented client-side form validation.
+
+
+
 Milestone 6: Backend Signup Endpoint and Password Encryption 🚀
 ✅ Signup Endpoint Implementation
 
 Created a new route to handle user registration.
 Used bcrypt to hash passwords securely.
+
+
 Milestone 7: Backend Login Endpoint and Password Validation 🚀
 ✅ Login Endpoint Implementation
 
 Created a backend route for user login.
 Implemented password validation using bcrypt.compare.
+
+
 Milestone 8: Product Card Component and Homepage Layout 🚀
 ✅ Frontend Product Card Component
 
 Designed and implemented a reusable Product Card component.
 Created a responsive homepage to display multiple Product Cards.
+
+
 Milestone 9: Product Input Form 🚀
 ✅ Product Form Implementation
 
 Designed a form for adding product details.
 Integrated backend database storage with validation.
+
+
 Milestone 10: Product Schema and API Endpoint 🚀
 ✅ Product Schema Implementation
 
@@ -88,6 +108,9 @@ Implemented validation for fields like name, price, and image URL.
 
 Created a POST endpoint to store product details in MongoDB.
 Ensured proper validation before saving the data.
+
+
+
 Milestone 11: Dynamic Product Display 🚀
 ✅ Fetching Product Data
 
@@ -97,6 +120,8 @@ Implemented API call logic in the frontend to fetch data dynamically.
 
 Passed fetched product data to the Product Card component.
 Rendered product information dynamically on the homepage.
+
+
 Milestone 12: My Products Page 🚀
 ✅ Filtering Products by User Email
 
@@ -110,6 +135,8 @@ Stored the retrieved data in the application state for dynamic rendering.
 
 Passed the fetched data to the Product Card component.
 Rendered the products dynamically on the "My Products" page.
+
+
 Milestone 13: Editing Uploaded Products 🚀
 ✅ Backend Update Endpoint
 
