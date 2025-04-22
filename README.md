@@ -1,13 +1,12 @@
-**### Milestone 29: PayPal Integration for Online Payments 💳
+### Milestone 33: JWT Authentication Setup 🔑
+✅ Install jsonwebtoken Package
+- Installed jsonwebtoken package via NPM: npm install jsonwebtoken.
+- Added it to the project to handle JWT generation.
 
-✅ PayPal Developer Setup
-- Created a PayPal Developer account.
-- Accessed the PayPal Developer Dashboard.
-- Created a Sandbox account for testing transactions.
-- Copied and saved the Sandbox UserID for future reference.
-- Retrieved and stored the Client ID from the Sandbox account.
+✅ Generate and Set Expiry for JWT
+- Used sign() method from jsonwebtoken to create a token with email and ID.
+- Set maxAge to define the token's expiration time.
 
-✅ Payment Options on Order Confirmation Page
-- Added two payment options: Cash on Delivery (COD) and Online Payment.
-- Implemented radio buttons to allow users to select their preferred payment method.
-- When "Online Payment" is selected, PayPal buttons will be displayed dynamically.**
+✅ Store Token in Response Cookie
+- Added the generated JWT to the response cookie.
+- Configured the cookie to be stored in the browser for subsequent requests.
